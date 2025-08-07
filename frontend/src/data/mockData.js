@@ -28,19 +28,19 @@ export const mockHotelData = {
         title: "Economy",
         price: "₦30,000/night",
         features: ["Queen bed", "Free WiFi", "En-suite bathroom"],
-        image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxob3RlbCUyMHJvb218ZW58MHx8fHwxNzU0NTA5ODI3fDA&ixlib=rb-4.1.0&q=85"
+        image: "/images/image4.jpg"
       },
       {
         title: "Deluxe",
         price: "₦40,000/night",
         features: ["King bed", "City view", "Mini-bar"],
-        image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwyfHxob3RlbCUyMHJvb218ZW58MHx8fHwxNzU0NTA5ODI3fDA&ixlib=rb-4.1.0&q=85"
+        image: "/images/image5.jpg"
       },
       {
         title: "Deluxe Plus",
         price: "₦50,000+/night",
         features: ["Suite", "Lounge area", "Complimentary breakfast"],
-        image: "https://images.unsplash.com/photo-1568495248636-6432b97bd949?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwzfHxob3RlbCUyMHJvb218ZW58MHx8fHwxNzU0NTA5ODI3fDA&ixlib=rb-4.1.0&q=85"
+        image: "/images/image6.jpg"
       }
     ]
   },
