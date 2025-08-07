@@ -18,7 +18,7 @@ export const mockHotelData = {
   about: {
     heading: "About Us",
     body: "Nestled on Teh Harbour Avenue, Teh Harbour Hotel & Lounge offers boutique suites, a terrace lounge, a restaurant, and a nightclub—designed for first-class comfort in a sleek, modern setting.",
-    image: "/images/image3.jpg",
+    image: "/images/event1.jpg",
     alt: "Hotel exterior at sunset"
   },
   rooms: {
