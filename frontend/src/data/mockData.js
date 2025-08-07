@@ -57,12 +57,12 @@ export const mockHotelData = {
   gallery: {
     heading: "Gallery",
     images: [
-      "https://images.unsplash.com/photo-1551918120-9739cb430c6d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3NTQ1MDk4MjF8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3NTQ1MDk4MjF8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3NTQ1MDk4MjF8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHw0fHxob3RlbCUyMHJvb218ZW58MHx8fHwxNzU0NTA5ODI3fDA&ixlib=rb-4.1.0&q=85",
-      "https://images.pexels.com/photos/53464/sheraton-palace-hotel-lobby-architecture-san-francisco-53464.jpeg",
-      "https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3NTQ1MDk4MjF8MA&ixlib=rb-4.1.0&q=85"
+      "/images/image7.jpg",
+      "/images/image8.jpg", 
+      "/images/image9.jpg",
+      "/images/image10.jpg",
+      "/images/image11.jpg",
+      "/images/event1.jpg"
     ]
   },
   contact: {
