@@ -7,7 +7,7 @@ export const mockHotelData = {
     email: "contact@tehharbourhotel.com"
   },
   hero: {
-    backgroundImage: "https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3NTQ1MDk4MjF8MA&ixlib=rb-4.1.0&q=85",
+    backgroundImage: "/images/image2.jpg",
     heading: "Teh Harbour Hotel & Lounge",
     subheading: "Luxury & Comfort in the Heart of Owerri",
     cta: {
