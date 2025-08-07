@@ -62,7 +62,7 @@ export const mockHotelData = {
       "/images/image6.jpg",
       "/images/image9.jpg",
       "/images/image10.jpg",
-      "/images/image11.jpg"
+      "/images/event1.jpg"
     ]
   },
   contact: {
