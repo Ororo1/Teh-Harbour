@@ -28,19 +28,19 @@ export const mockHotelData = {
         title: "Economy",
         price: "₦30,000/night",
         features: ["Queen bed", "Free WiFi", "En-suite bathroom"],
-        image: "/images/image4.jpg"
+        image: "/images/image7.jpg"
       },
       {
         title: "Deluxe",
         price: "₦40,000/night",
         features: ["King bed", "City view", "Mini-bar"],
-        image: "/images/image5.jpg"
+        image: "/images/image8.jpg"
       },
       {
         title: "Deluxe Plus",
         price: "₦50,000+/night",
         features: ["Suite", "Lounge area", "Complimentary breakfast"],
-        image: "/images/image6.jpg"
+        image: "/images/image3.jpg"
       }
     ]
   },
