@@ -1,6 +1,5 @@
 // frontend/src/data/mockData.js
 
-// Images (adjust names to match files in src/assets)
 import heroImg from "../assets/hero.jpg";
 import aboutImg from "../assets/event2.jpg";
 import roomEconomyImg from "../assets/room1.jpg";
