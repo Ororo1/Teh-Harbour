@@ -7,7 +7,7 @@ export const mockHotelData = {
     email: "contact@tehharbourhotel.com"
   },
   hero: {
-    backgroundImage: "/images/image2.jpg",
+    backgroundImage: "${PUB}/images/image2.jpg",
     heading: "Teh Harbour Hotel & Lounge",
     subheading: "Luxury & Comfort in the Heart of Owerri",
     cta: {
@@ -18,7 +18,7 @@ export const mockHotelData = {
   about: {
     heading: "About Us",
     body: "Nestled on Teh Harbour Avenue, Teh Harbour Hotel & Lounge offers boutique suites, a terrace lounge, a restaurant, and a nightclub—designed for first-class comfort in a sleek, modern setting.",
-    image: "/images/image3.jpg",
+    image: "${PUB}/images/image3.jpg",
     alt: "Hotel exterior"
   },
   rooms: {
@@ -26,21 +26,21 @@ export const mockHotelData = {
     cards: [
       {
         title: "Economy",
-        price: "₦30,000/night",
+        price: "₦35,000/night",
         features: ["Queen bed", "Free WiFi", "En-suite bathroom"],
-        image: "/images/image7.jpg"
+        image: "${PUB}/images/image7.jpg"
       },
       {
         title: "Deluxe",
-        price: "₦40,000/night",
+        price: "₦90,000/night",
         features: ["King bed", "City view", "Mini-bar"],
-        image: "/images/image8.jpg"
+        image: "${PUB}/images/image8.jpg"
       },
       {
         title: "Deluxe Plus",
-        price: "₦50,000+/night",
+        price: "₦150,000+/night",
         features: ["Suite", "Lounge area", "Complimentary breakfast"],
-        image: "/images/image3.jpg"
+        image: "${PUB}/images/image3.jpg"
       }
     ]
   },
@@ -57,12 +57,12 @@ export const mockHotelData = {
   gallery: {
     heading: "Gallery",
     images: [
-      "/images/image4.jpg",
-      "/images/image5.jpg", 
-      "/images/image6.jpg",
-      "/images/image9.jpg",
-      "/images/image10.jpg",
-      "/images/event1.jpg"
+      "${PUB}/images/image4.jpg",
+      "${PUB}/images/image5.jpg", 
+      "${PUB}/images/image6.jpg",
+      "${PUB}/images/image9.jpg",
+      "${PUB}/images/image10.jpg",
+      "${PUB}/images/event1.jpg"
     ]
   },
   contact: {
