@@ -1,3 +1,4 @@
+# .github/workflows/pages.yml
 name: Deploy to GitHub Pages
 on:
   push:
@@ -9,26 +10,36 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
+
+# run shell steps from the app folder
+defaults:
+  run:
+    working-directory: frontend   # <-- change if your folder name differs
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
-          cache: "yarn"
+          node-version: 20
+          cache: yarn
+          cache-dependency-path: frontend/yarn.lock
 
       - run: yarn install --frozen-lockfile
-      - run: yarn build            # runs "craco build"
-      - run: cp build/index.html build/404.html   # SPA refresh fix
+      - run: yarn build                    # runs "craco build"
+      - run: cp build/index.html build/404.html
+
+      # path is from repo root, not the working dir
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: "./build"
+          path: frontend/build
 
   deploy:
     needs: build
